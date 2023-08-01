@@ -1,1 +1,8 @@
 /* You can add global styles to this file, and also import other style files */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.button-class {
+    @apply bg-red-500 text-white text-xl font-light hover:bg-red-700 hover:bg-opacity-20 ;
+}
