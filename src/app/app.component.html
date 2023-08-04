@@ -1,16 +1,12 @@
-<div
-  class="min-w-screen min-h-screen flex justify-center items-center px-5 py-5 bg-teal-700"
->
-  <div
-    class="w-full mx-auto rounded-xl bg-gray-700 shadow-xl text-gray-800 relative overflow-hidden !max-w-[400px]"
-  >
+<div class="min-w-screen min-h-screen flex justify-center items-center px-5 py-5 bg-teal-700">
+  <div class="w-full mx-auto rounded-xl bg-gray-700 shadow-xl text-gray-800 relative overflow-hidden !max-w-[400px]">
+    
     <div class="w-full h-40  text-right py-6 px-6">
-      <div class="text-2xl text-white pb-6 bg-gray-700 font-thin">Function</div>
-
-      <div class="text-6xl text-white">100</div>
+      <div class="text-2xl text-white pb-6 bg-gray-700 font-thin">{{funcT}}</div>
+      <div class="text-6xl text-white">{{calValue | number}}</div>
     </div>
 
-    <!-- Buttons -->
+    <!--- Buttons --->
     <div class="bg-gradient-to-b from-red-500 to-red-800">
       <div class="flex w-full">
         <button class="w-1/2 button-class border-r border-b">C</button>
